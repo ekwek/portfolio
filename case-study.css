@@ -164,3 +164,4 @@ img { max-width:100%; }
 .hdb-browser-address { height:28px; padding:0 12px; display:flex; align-items:center; gap:8px; border:1px solid #dde0e2; border-radius:14px; background:#fff; }.hdb-browser-address span { color:#758088; font-size:12px; }.hdb-browser-address strong { overflow:hidden; color:#596068; font-size:9px; font-weight:500; text-overflow:ellipsis; white-space:nowrap; }.hdb-browser-more { color:#73797f; font-size:10px; letter-spacing:2px; }
 .hdb-browser-frame > img { display:block; width:100%; border:0; border-radius:0 0 13px 13px; box-shadow:none; }
 @media (max-width:620px) { .hdb-browser-tab { width:58vw; }.hdb-browser-address strong { font-size:8px; }.hdb-browser-toolbar { gap:8px; }.hdb-browser-actions { gap:7px; } }
+.proof-stage .exploration-stage-visual img { height:67.5%; max-height:67.5%; }
