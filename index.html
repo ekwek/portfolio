@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ethel Kwek is a product designer." />
+    <title>Ethel Kwek — Product Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="nav wrap" aria-label="Primary navigation">
+        <a class="wordmark" href="#top">Ethel Kwek<span>®</span></a>
+        <div class="nav-links">
+          <a class="active" href="#work">Selected work</a>
+        </div>
+      </nav>
+
+      <section class="intro wrap" id="top">
+        <p class="eyebrow">Product designer <span>📍 Based in Singapore &amp; Bangkok</span></p>
+        <h1>I turn complex data into product experiences people <em>understand.</em></h1>
+        <div class="intro-bottom">
+          <div class="personal-note">
+            <p>When I’m not designing, I’m running marathons and high-altitude trails around the world — always learning from the places and people I encounter.</p>
+          </div>
+          <a class="circle-link" href="#work" aria-label="Explore selected work">↓</a>
+        </div>
+      </section>
+
+      <section class="portraits wrap" aria-label="Profile photos">
+        <p class="eyebrow">A few moments</p>
+        <div class="portrait-grid">
+          <figure class="portrait"><img src="public/notion-portrait-01.jpg?v=3" alt="Ethel Kwek running a marathon" /><span>Running marathons</span></figure>
+          <figure class="portrait"><img src="public/notion-portrait-02.jpg?v=3" alt="Ethel Kwek in her happy place" /><span>My happy place</span></figure>
+          <figure class="portrait"><img src="public/notion-portrait-03-web.png?v=2" alt="Ethel Kwek enduro riding" /><span>Enduro riding</span></figure>
+        </div>
+      </section>
+
+      <section class="work wrap" id="work">
+        <div class="section-head"><p class="eyebrow">01 / Selected work</p><p class="project-count">(05)</p></div>
+        <div class="gallery">
+          <a class="project blue" href="managing-check-in-issues.html" aria-label="Open Managing check-in issues case study"><span class="art"></span><span class="hover-arrow">↗</span><span class="project-label"><b>Managing check-in issues <i>😠</i></b><small>Product design / Agoda</small></span></a>
+          <a class="project lilac" href="building-trust-booking-status.html" aria-label="Open Building trust on booking status case study"><span class="art"><span class="thumbnail-phone"><img src="public/homepage-booking-status-screen.png" alt="" /></span></span><span class="hover-arrow">↗</span><span class="project-label"><b>Building trust on booking status <i>🤝</i></b><small>Product design / Agoda</small></span></a>
+          <a class="project dbs" href="optimizing-credit-applications.html" aria-label="Open Optimizing credit applications case study"><span class="art"><span class="dbs-thumb-window"><span class="dbs-thumb-bar"><i></i><i></i><i></i></span><img src="public/dbs-dashboard.png" alt="" /></span></span><span class="hover-arrow">↗</span><span class="project-label"><b>Optimizing credit applications <i>🏦</i></b><small>Product design / DBS</small></span></a>
+          <a class="project vivr" href="vivr-north-star.html" aria-label="Open VIVR North Star case study"><span class="art"><span class="vivr-thumb-pair"><img class="vivr-thumb-screen vivr-thumb-screen-status" src="public/vivr-hero-status.png" alt="Agoda Chat showing an in-progress free cancellation request" /><img class="vivr-thumb-screen vivr-thumb-screen-refund" src="public/vivr-hero-refund.png" alt="Agoda Chat prompting a guest to finish receiving a refund" /></span></span><span class="hover-arrow">↗</span><span class="project-label"><b>VIVR North Star <i>💬</i></b><small>Experience strategy / Agoda</small></span></a>
+          <a class="project hdb" href="hdb-smart-carparks.html" aria-label="Open Smart carpark operations case study"><span class="art"><img class="hdb-thumb" src="public/hdb-thumbnail-green.png" alt="HDB smart carpark operations portal displayed on a laptop" /></span><span class="hover-arrow">↗</span><span class="project-label"><b>Managing smart carpark operations <i>🚗</i></b><small>Product design / HDB</small></span></a>
+        </div>
+      </section>
+
+    </main>
+    <footer class="wrap"><p>© 2024 Ethel Kwek</p><p>All good things, thoughtfully made.</p><a href="#top">Back to top ↑</a></footer>
+
+    <dialog class="project-dialog" aria-labelledby="modal-title">
+      <div class="modal-art"></div>
+      <div class="modal-content">
+        <button class="close" aria-label="Close project">×</button>
+        <p class="eyebrow" id="modal-meta"></p>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <div class="details"><span>Scope</span><b id="modal-scope"></b><span>Client</span><b id="modal-client"></b></div>
+      </div>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>

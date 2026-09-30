@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Optimizing the credit application process — a DBS product design case study by Ethel Kwek." />
+    <title>Optimizing credit applications — Ethel Kwek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="case-study.css" />
+  </head>
+  <body class="dbs-case">
+    <nav class="case-nav case-wrap">
+      <a class="wordmark" href="index.html">Ethel Kwek<span>®</span></a>
+      <a class="back-link" href="index.html#work">← Selected work</a>
+    </nav>
+
+    <main>
+      <header class="case-hero case-wrap">
+        <p class="case-kicker">DBS · Product design · Commercial lending</p>
+        <h1>Optimizing credit applications <span>🏦</span></h1>
+        <p class="case-lead">Turning a fragmented enterprise-loan workflow into one guided experience—so relationship managers can assess eligibility faster and submit stronger cases.</p>
+        <dl class="case-meta">
+          <div><dt>Product</dt><dd>DBS credit application platform</dd></div>
+          <div><dt>My role</dt><dd>Lead designer, pre-approval</dd></div>
+          <div><dt>Year</dt><dd>2021 · 5–6 months</dd></div>
+        </dl>
+      </header>
+
+      <section class="dbs-hero" aria-label="Credit application dashboard concept">
+        <div class="case-wrap dbs-hero-grid">
+          <div class="dbs-hero-copy">
+            <p class="section-label light">The shift</p>
+            <strong><span>11 systems</span> → 1 guided workflow</strong>
+            <p>Bring scattered data, calculations and eligibility rules into a single decision-making experience.</p>
+          </div>
+          <div class="dbs-browser-frame">
+            <div class="dbs-browser-bar"><i></i><i></i><i></i></div>
+            <img src="public/dbs-dashboard.png" alt="DBS credit dashboard showing borrower exposure and facility calculations" />
+          </div>
+        </div>
+      </section>
+
+      <article>
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">01 / Context</p>
+          <div class="section-copy">
+            <h2>A high-value service slowed down by fragmented operations.</h2>
+            <p>Enterprise loan applications moved across nine user groups and took three weeks to one month—sometimes more than three months. DBS aimed to reduce the time to offer to two weeks through one consistent platform.</p>
+          </div>
+        </section>
+
+        <section class="dbs-origin case-wrap" aria-labelledby="dbs-origin-title">
+          <div class="dbs-origin-illustration"><img src="public/dbs-loan-wait-illustration.png" alt="Illustration of a customer waiting on a large stack of coins" /></div>
+          <div class="dbs-origin-story">
+            <p class="section-label">How a case begins</p>
+            <h3 id="dbs-origin-title">From customer request to funds.</h3>
+            <ol>
+              <li><span>01</span><div><strong>Customer approaches the bank</strong></div></li>
+              <li><span>02</span><div><strong>RM checks eligibility and applies</strong></div></li>
+              <li><span>03</span><div><strong>Credit approves; support processes documents</strong></div></li>
+              <li><span>04</span><div><strong>Funds are disbursed</strong></div></li>
+            </ol>
+            <div class="dbs-time-shift">
+              <div><span>Current</span><strong>3 weeks–1 month</strong><small>Sometimes more than 3 months</small></div>
+              <i>→</i>
+              <div><span>Project target</span><strong>2 weeks</strong><small>Time for customers to receive an offer</small></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="dbs-facts case-wrap" aria-label="Project scale">
+          <div><strong>9</strong><span>user groups across the end-to-end journey</span></div>
+          <div><strong>200+</strong><span>relationship managers</span></div>
+          <div><strong>200+</strong><span>support staff</span></div>
+          <div><strong>S$40m</strong><span>average loan size</span></div>
+        </section>
+
+        <section class="dbs-problem">
+          <div class="case-wrap">
+            <p class="section-label light">02 / The bottleneck</p>
+            <h2>Relationship managers spent hours assembling evidence before they could make a decision.</h2>
+            <div class="dbs-problem-grid">
+              <article><strong>11</strong><h3>Systems and documents</h3><p>Pre-screening required switching between as many as 11 sources to understand a customer’s eligibility.</p></article>
+              <article><strong>1–3 hrs</strong><h3>Eligibility checks</h3><p>Manual research and calculations happened before a manager could confidently propose a loan.</p></article>
+              <article><strong>915</strong><h3>Possible fields</h3><p>Manual entry increased effort and introduced downstream data errors, failed checks and rework.</p></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">03 / Discovery</p>
+          <div class="section-copy">
+            <h2>Mapping the work—not just the interface.</h2>
+            <p>I led the pre-approval design stream, working with product, business analysts, content, technology, subject-matter experts and end users. Stakeholder workshops revealed how a case crossed departments and where offline tools filled gaps in the main system.</p>
+            <p>Remote interviews and workflow observation showed navigation that did not match the job, layers of underused data, unclear terminology and frequent detours into external tools. Comparing three internal loan systems also surfaced patterns that could be standardized.</p>
+            <div class="callout"><span>Design question</span><p>How might we speed up eligibility checks while ensuring applications are accurate and complete—so teams can focus on cases with a higher chance of success?</p></div>
+          </div>
+        </section>
+
+        <section class="dbs-flow-section">
+          <div class="case-wrap">
+            <p class="section-label">04 / Solution framework</p>
+            <div class="dbs-flow-heading"><h2>One system. Four steps. Eligibility before submission.</h2><p>The new flow replaced repeated cross-system checks with auto-pulled data, embedded calculations and immediate feedback.</p></div>
+            <ol class="dbs-flow">
+              <li><span>01</span><strong>Create a case</strong><p>Search for the customer and use a unique identifier to retrieve relevant records.</p></li>
+              <li><span>02</span><strong>Review pre-screening</strong><p>See auto-pulled results and stop early when a case is not eligible.</p></li>
+              <li><span>03</span><strong>Propose the loan</strong><p>Work with consolidated data and embedded pass/fail calculations.</p></li>
+              <li><span>04</span><strong>Check eligibility</strong><p>Understand results in real time before sending the case downstream.</p></li>
+            </ol>
+            <p class="dbs-target">Target for pre-screening checks: <strong>from 1–3 hours to 5 minutes</strong></p>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">05 / Design response</p>
+          <div class="section-copy">
+            <h2>Make complex lending rules visible and actionable.</h2>
+            <p>I restructured the information architecture around the relationship manager’s workflow, then consolidated exposure data, facility limits and collateral into one view. Real-time visualizations helped managers understand remaining headroom without rebuilding calculations elsewhere.</p>
+            <p>Eligibility rules were surfaced during application—not after submission—so managers could resolve exceptions or provide justification while context was fresh.</p>
+          </div>
+        </section>
+
+        <div class="dbs-design-grid case-wrap">
+          <figure>
+            <div class="dbs-design-image"><img src="public/dbs-dashboard.png" alt="Dashboard consolidating borrower exposure, limits and facilities" /></div>
+            <figcaption><span>01 / Consolidated decisions</span><h3>Exposure and limits in one place</h3><p>Dynamic calculations and visual cues replaced manual comparisons across multiple tools.</p></figcaption>
+          </figure>
+          <figure>
+            <div class="dbs-design-image"><img src="public/dbs-eligibility.png" alt="Loan application form showing embedded eligibility warnings and justification" /></div>
+            <figcaption><span>02 / Embedded guardrails</span><h3>Resolve eligibility issues in context</h3><p>Inline checks exposed threshold failures early and guided users toward the next action.</p></figcaption>
+          </figure>
+        </div>
+
+        <section class="dbs-validation">
+          <div class="case-wrap">
+            <p class="section-label light">06 / Usability validation</p>
+            <div class="dbs-validation-heading"><h2>The core flow worked. Findability and language still needed iteration.</h2><p>Remote sessions tested a realistic loan-proposal scenario with relationship managers. Results indicated strong task comprehension, alongside clear opportunities to improve collateral discovery and call-to-action wording.</p></div>
+            <div class="dbs-validation-grid">
+              <div><strong>100%</strong><span>completed the tested tasks successfully</span></div>
+              <div><strong>100%</strong><span>interpreted the presented data accurately</span></div>
+              <div><strong>3.5 / 5</strong><span>average ease-of-use score</span></div>
+              <div><strong>2.8 / 5</strong><span>average content-clarity score</span></div>
+            </div>
+            <p class="dbs-validation-note">The study also found that 33.3% could not locate some data efficiently and 33.3% did not understand a CTA. These findings informed further iteration; the PDF does not report production impact.</p>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid final-section">
+          <p class="section-label">07 / Reflection</p>
+          <div class="section-copy">
+            <h2>Designing the workflow meant designing across organizational boundaries.</h2>
+            <p>A small interaction change upstream could affect several teams downstream. The work required continuous alignment across business, technology and design, while learning a complex lending domain quickly enough to challenge legacy assumptions.</p>
+            <p>With more time, I would have run additional validation rounds and studied the emotional side of internal tools—not only whether the product was usable, but whether it gave users confidence while handling high-value decisions.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="case-footer case-wrap">
+      <p>© 2026 Ethel Kwek</p>
+      <a href="index.html#work">Back to selected work ↑</a>
+    </footer>
+  </body>
+</html>

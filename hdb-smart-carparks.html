@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HDB smart carpark operations portal — a product design case study by Ethel Kwek." />
+    <title>Managing smart carpark operations — Ethel Kwek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="case-study.css" />
+  </head>
+  <body class="hdb-case">
+    <nav class="case-nav case-wrap">
+      <a class="wordmark" href="index.html">Ethel Kwek<span>®</span></a>
+      <a class="back-link" href="index.html#work">← Selected work</a>
+    </nav>
+
+    <main>
+      <header class="case-hero case-wrap">
+        <p class="case-kicker">HDB · Product design · Operations platform</p>
+        <h1>Managing smart carpark operations <span>🚗</span></h1>
+        <p class="case-lead">Defining the design direction for a central portal that helps HDB operate barrier-free carparks with faster access to trusted data.</p>
+        <dl class="case-meta">
+          <div><dt>Product</dt><dd>Smart carpark operations portal</dd></div>
+          <div><dt>My role</dt><dd>Discovery · Design direction</dd></div>
+          <div><dt>Year</dt><dd>2019</dd></div>
+        </dl>
+      </header>
+
+      <section class="hdb-hero" aria-label="HDB carpark operations portal">
+        <div class="case-wrap hdb-hero-grid">
+          <div class="hdb-hero-copy">
+            <p class="section-label light">The brief</p>
+            <h2>One operational view across a fragmented carpark ecosystem.</h2>
+            <p>Bring parking sessions, discrepancies and configurable carpark data together so officers can work with greater speed, accuracy and control.</p>
+          </div>
+          <img src="public/hdb-hero-laptop-transparent.png" alt="HDB smart carpark operations portal displayed on a laptop" />
+        </div>
+      </section>
+
+      <article>
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">01 / Context</p>
+          <div class="section-copy">
+            <h2>Moving from barrier gantries to licence-plate recognition changed the operating model.</h2>
+            <p>HDB wanted a seamless parking and payment journey built around licence-plate recognition, removing the need for barrier gantries and reducing queues at carpark entrances and exits.</p>
+            <p>Behind that motorist experience, HDB needed an integrated operational portal. Carpark hardware, software and transaction data were managed by multiple service providers, making price changes, investigations and system improvements slow and dependent on manual verification.</p>
+          </div>
+        </section>
+
+        <div class="hdb-media-grid hdb-context-media case-wrap">
+          <figure><img src="public/hdb-carpark-landscape.png" alt="Comparison of Singapore road parking and HDB barrier-gantry parking" /><figcaption>Existing parking landscape and payment systems</figcaption></figure>
+        </div>
+
+        <section class="hdb-scale">
+          <div class="case-wrap">
+            <p class="section-label light">The operating scale</p>
+            <div class="hdb-scale-grid">
+              <div><strong>1,900</strong><span>HDB carparks</span></div>
+              <div><strong>2.5M</strong><span>parking transactions every day</span></div>
+              <div><strong>9</strong><span>service providers</span></div>
+              <div><strong>S$1K+</strong><span>per carpark for a system enhancement</span></div>
+              <div><strong>1–3</strong><span>system enhancements each year</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="hdb-target-experience case-wrap" aria-labelledby="target-experience-title">
+          <div class="hdb-target-intro">
+            <p class="section-label">The target experience</p>
+            <div>
+              <h2 id="target-experience-title">Designing both sides of the parking experience.</h2>
+              <p>A seamless journey for motorists depended on giving HDB a reliable operational layer behind it.</p>
+            </div>
+          </div>
+
+          <article class="hdb-journey-card hdb-journey-operations">
+            <div class="hdb-journey-heading">
+              <span>01 / HDB operations</span>
+              <h3>Centralise the work behind every parking session.</h3>
+              <p>Bring configuration, charging, payments, reconciliation and enforcement into one connected operational experience.</p>
+            </div>
+            <figure>
+              <img src="public/hdb-operations-journey.png" alt="HDB operational journey across parking information, charging, payments, reconciliation and enforcement" />
+              <figcaption>Target operational experience for HDB</figcaption>
+            </figure>
+          </article>
+
+          <div class="hdb-experience-connector">
+            <span>Operational reliability</span>
+            <i aria-hidden="true">↓</i>
+            <strong>enables a seamless motorist experience</strong>
+          </div>
+
+          <article class="hdb-journey-card hdb-journey-motorist">
+            <div class="hdb-journey-heading">
+              <span>02 / Motorists</span>
+              <h3>Make parking feel effortless from entry to resolution.</h3>
+              <p>Remove stopping points and manual steps while keeping payment, eligibility and charge follow-up clear.</p>
+            </div>
+            <figure>
+              <img src="public/hdb-motorist-journey.png" alt="Motorist journey from registering in Parking.sg through parking, payment and charge follow-up" />
+              <figcaption>Envisioned experience for motorists</figcaption>
+            </figure>
+          </article>
+        </section>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">02 / Discovery</p>
+          <div class="section-copy">
+            <h2>Research connected the requested features to the work officers actually performed.</h2>
+            <p>I interviewed 10 officers across four departments to understand their responsibilities, tools and current workflows. The research covered carpark operations, system ownership, accounting and data analysis.</p>
+            <div class="hdb-research-grid">
+              <div><strong>3</strong><span>Carpark operations managers</span></div>
+              <div><strong>2</strong><span>System owners</span></div>
+              <div><strong>2</strong><span>Accountants</span></div>
+              <div><strong>4</strong><span>Data analysts</span></div>
+            </div>
+            <figure class="hdb-research-figure">
+              <img src="public/hdb-user-roles.png" alt="Participants in remote interviews about HDB carpark operations" />
+              <figcaption>Remote interviews with officers across four operational roles</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="hdb-flow case-wrap" aria-labelledby="wrong-charge-flow-title">
+          <div class="hdb-flow-heading">
+            <div>
+              <p class="section-label">Existing workflow</p>
+              <h3 id="wrong-charge-flow-title">Investigating a wrong charge required repeated handoffs.</h3>
+            </div>
+            <p>An operations manager typically handled <strong>10–30 cases each week</strong>, manually moving information between systems, files and teams.</p>
+          </div>
+
+          <div class="hdb-flow-compact">
+            <article>
+              <b>01 — Intake</b>
+              <span class="hdb-owner hdb-owner-branch">HDB branch</span>
+              <strong>Wrong-charge feedback received</strong>
+            </article>
+            <article>
+              <b>02 — Investigation</b>
+              <span class="hdb-owner hdb-owner-isg">ISG · HDB IT</span>
+              <strong>Transactions and charges assessed</strong>
+            </article>
+            <article class="hdb-flow-compact-friction">
+              <b>03 — Manual verification</b>
+              <span class="hdb-owner hdb-owner-ops">Operations manager</span>
+              <strong>Notepad list converted to Excel and verified</strong>
+            </article>
+            <article>
+              <b>04 — Handoff</b>
+              <span class="hdb-owner hdb-owner-provider">Service provider</span>
+              <strong>Discrepancy clarified by email</strong>
+            </article>
+            <article class="hdb-flow-compact-result">
+              <b>05 — Resolution</b>
+              <span class="hdb-owner hdb-owner-isg">ISG · HDB IT</span>
+              <strong>Wrong charge rectified</strong>
+            </article>
+          </div>
+
+          <div class="hdb-flow-note"><span>Key friction</span><p>The same case moved through email, Notepad, Excel and internal systems before it could be resolved.</p></div>
+        </section>
+
+        <section class="hdb-problem">
+          <div class="case-wrap">
+            <p class="section-label light">The core problem</p>
+            <h2>Too much effort went into obtaining and verifying data that officers could not fully trust.</h2>
+            <p class="hdb-problem-lead">An operations manager handled roughly <strong>10–30 discrepancy cases each week</strong>, often moving between system checks, spreadsheets, Notepad files and email exchanges with service providers.</p>
+            <div class="hdb-problem-grid">
+              <article><span>01</span><h3>Dependent on others</h3><p>Officers could not access information instantly and had to request data from internal teams or service providers.</p></article>
+              <article><span>02</span><h3>Not real-time</h3><p>Outdated sources created additional verification work and weakened confidence in data integrity.</p></article>
+              <article><span>03</span><h3>Labour-intensive</h3><p>Large datasets were cleaned and cross-referenced manually across several tools.</p></article>
+              <article><span>04</span><h3>Low transparency</h3><p>Service-provider maintenance, data handling and recovery processes were difficult to govern.</p></article>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">03 / Opportunity</p>
+          <div class="section-copy">
+            <h2>Turn fragmented operational data into dependable workflows.</h2>
+            <p>The strongest opportunities were to identify transaction discrepancies automatically, give teams real-time carpark and revenue visibility, and connect previously separate systems into workflows such as reconciliation and record updates.</p>
+            <div class="insight-grid">
+              <div><strong>Automate calculations</strong><p>Pull parking transactions together to surface discrepancies and status changes.</p></div>
+              <div><strong>Make performance visible</strong><p>Provide carpark usage, revenue, occupancy and transaction insights in one place.</p></div>
+              <div><strong>Connect workflows</strong><p>Reduce handoffs between reconciliation, investigation and record updates.</p></div>
+              <div><strong>Improve governance</strong><p>Create a clearer, shared view of data quality and service-provider performance.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="hdb-principles">
+          <div class="case-wrap">
+            <p class="section-label">04 / Design principles</p>
+            <div class="hdb-principles-heading"><h2>Five principles guided the first design direction.</h2><p>Developed with key stakeholders to keep product decisions anchored in the needs uncovered during discovery.</p></div>
+            <div class="hdb-principle-grid">
+              <div><strong>Simple</strong><span>Discover, view and understand data easily.</span></div>
+              <div><strong>Seamless</strong><span>Consolidate information from different sources.</span></div>
+              <div><strong>Fast</strong><span>Retrieve real-time information efficiently.</span></div>
+              <div><strong>Accurate</strong><span>Build trust through dependable calculations.</span></div>
+              <div><strong>Flexible</strong><span>Scale and adapt as user needs evolve.</span></div>
+            </div>
+            <figure class="hdb-principles-source"><img src="public/hdb-principles-workshop.png" alt="Participants in a remote stakeholder design-principles workshop" /><figcaption>The stakeholder workshop used to establish the principles</figcaption></figure>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">05 / Design direction</p>
+          <div class="section-copy">
+            <h2>Present essential operational data in a simple, searchable workspace.</h2>
+            <p>The foundational interface prioritised the information operations managers used every day: parking sessions, discrepancy volume, carpark details and transaction search. Shared data patterns were designed to support the needs of other user groups over time.</p>
+          </div>
+        </section>
+
+        <figure class="hdb-dashboard case-wrap">
+          <div class="hdb-browser-frame">
+            <div class="hdb-browser-chrome" aria-hidden="true">
+              <div class="hdb-browser-toolbar">
+                <div class="hdb-browser-dots"><i></i><i></i><i></i></div>
+                <div class="hdb-browser-actions"><span>‹</span><span>›</span><span>↻</span></div>
+                <div class="hdb-browser-address"><span>⌾</span><strong>operations.hdb.gov.sg</strong></div>
+                <span class="hdb-browser-more">•••</span>
+              </div>
+            </div>
+            <img src="public/hdb-operations-dashboard.png" alt="Dashboard showing HDB parking sessions, discrepancy volume and transaction filters" />
+          </div>
+          <figcaption>Foundational portal direction for carpark operations managers</figcaption>
+        </figure>
+
+        <section class="case-section case-wrap case-grid final-section">
+          <p class="section-label">06 / Reflection</p>
+          <div class="section-copy">
+            <h2>A strong discovery foundation, with delivery boundaries made explicit.</h2>
+            <p>My contribution concluded after defining the overall design direction because of resource planning. The smart-parking programme was later piloted and launched, but I did not have visibility into the final operations portal or post-launch outcomes.</p>
+            <p>The project strengthened my approach to remote research, cross-functional collaboration and stakeholder alignment. It also reinforced the importance of agreeing on success measures early enough to evaluate operational quality, efficiency and customer impact after launch.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="case-footer case-wrap">
+      <p>© 2026 Ethel Kwek</p>
+      <a href="index.html#work">Back to selected work ↑</a>
+    </footer>
+  </body>
+</html>

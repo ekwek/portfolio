@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Building trust on booking status — an Agoda product design case study by Ethel Kwek." />
+    <title>Building trust on booking status — Ethel Kwek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="case-study.css" />
+  </head>
+  <body>
+    <nav class="case-nav case-wrap">
+      <a class="wordmark" href="index.html">Ethel Kwek<span>®</span></a>
+      <a class="back-link" href="index.html#work">← Selected work</a>
+    </nav>
+
+    <main>
+      <header class="case-hero case-wrap">
+        <p class="case-kicker">Agoda · Product design · Post-booking</p>
+        <h1>Building trust on booking status <span>🤝</span></h1>
+        <p class="case-lead">Helping guests feel confident that a confirmed booking is truly valid—without needing to contact customer support for human reassurance.</p>
+        <dl class="case-meta">
+          <div><dt>Product</dt><dd>Agoda</dd></div>
+          <div><dt>My role</dt><dd>Product design</dd></div>
+          <div><dt>Focus</dt><dd>Trust, confirmation, self-service</dd></div>
+        </dl>
+      </header>
+
+      <section class="trust-hero" aria-label="Booking confirmation concept">
+        <div class="trust-hero-inner case-wrap">
+          <p class="trust-overline">Booking confirmed</p>
+          <div class="trust-confirmation">
+            <span class="trust-check">✓</span>
+            <div><strong>Your stay is confirmed.</strong><small>Verified with the property · Confirmation proof available</small></div>
+          </div>
+          <div class="trust-signals"><span>Booking ID verified</span><span>Payment received</span><span>Property confirmed</span></div>
+        </div>
+      </section>
+
+      <article>
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">01 / The problem</p>
+          <div class="section-copy">
+            <h2>The status was visible. The confidence wasn’t there.</h2>
+            <p>Guests could already check their booking details and status themselves, yet many still contacted customer support to confirm that everything was valid.</p>
+            <p>The behavior suggested a trust gap rather than a discoverability problem: a system-generated “confirmed” label did not always provide enough reassurance on its own.</p>
+          </div>
+        </section>
+
+        <section class="evidence-section">
+          <div class="case-wrap">
+            <p class="section-label light">02 / Directional evidence</p>
+            <h2 class="evidence-title">Booking reassurance was creating meaningful avoidable contact.</h2>
+            <div class="evidence-grid">
+              <div><strong>≈6%</strong><span>of guest handling time came from checking booking details or status</span></div>
+              <div><strong>4.4%</strong><span>was attributed to guests who did not ultimately need an action</span></div>
+              <div><strong>≈2%</strong><span>of handling time came from confirmed bookings with no amendment</span></div>
+            </div>
+            <p class="data-note">Figures are directional. For context, every 1% of guest handling time represents approximately US$800,000 in monetary value. The source research board notes that this data was self-extracted and may be inaccurate.</p>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">03 / Why trust breaks</p>
+          <div class="section-copy">
+            <h2>Three signals pointed beyond a simple status label.</h2>
+            <p>Previous booking failures, mismatched system states and incorrect booking details could all make a technically correct confirmation feel unreliable.</p>
+          </div>
+        </section>
+
+        <div class="cause-grid case-wrap">
+          <article><span>01</span><h3>Past negative experiences</h3><p>Issues such as allotment rejects taught some guests not to trust system-generated confirmation without human assurance.</p></article>
+          <article><span>02</span><h3>Delayed or conflicting status</h3><p>Payment deductions, missing bookings, loading errors or slow updates could contradict what guests expected to see.</p></article>
+          <article><span>03</span><h3>Incorrect booking information</h3><p>Guests who noticed incorrect details often checked the booking’s validity before attempting an amendment.</p></article>
+        </div>
+
+        <section class="research-viz case-wrap" aria-labelledby="research-viz-title">
+          <div class="research-viz-heading">
+            <p class="section-label">Research synthesis</p>
+            <h3 id="research-viz-title">Most guests who contacted support had a confirmed booking with nothing to change.</h3>
+          </div>
+          <div class="research-viz-grid">
+            <article class="amendment-viz">
+              <div class="viz-card-title"><span>Contacted guests</span><strong>Amendment mix</strong></div>
+              <div class="split-bar" aria-label="80 percent no amendment and 20 percent with amendment">
+                <span class="no-amendment">80%</span><span class="with-amendment">20%</span>
+              </div>
+              <div class="split-legend"><span><i class="legend-purple"></i>No amendment</span><span><i class="legend-lilac"></i>With amendment</span></div>
+              <p>Confirmed cases with no amendment still generated approximately <strong>2% of handling time</strong>.</p>
+            </article>
+            <article class="signal-viz">
+              <div class="viz-card-title"><span>Supporting signals</span><strong>Across internal sources</strong></div>
+              <div class="signal-row">
+                <div><strong>6.08%</strong><span>Hermes (property messaging) messages about booking confirmation</span></div>
+                <div class="signal-meter"><i style="--value:6.08%"></i></div>
+              </div>
+              <div class="signal-row">
+                <div><strong>10%</strong><span>Guest handling time attributed to allotment rejects</span></div>
+                <div class="signal-meter"><i style="--value:10%"></i></div>
+              </div>
+              <div class="signal-row">
+                <div><strong>39%</strong><span>of reviewed cases had the wrong action mapped</span></div>
+                <div class="signal-meter"><i style="--value:39%"></i></div>
+              </div>
+            </article>
+          </div>
+          <p class="viz-note">Directional research only. These indicators come from different internal sources and denominators, so they should not be directly compared.</p>
+        </section>
+
+        <section class="hypothesis-section">
+          <div class="case-wrap hypothesis-grid">
+            <p class="section-label light">04 / Product hypothesis</p>
+            <div>
+              <p class="hypothesis-kicker">If confidence—not access—is the problem…</p>
+              <h2>Increase human-like assurance, show clear confirmation proof and make verification visible.</h2>
+              <p>The hypothesis was that stronger reassurance would help guests trust that their booking was valid and reduce the need to contact support.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid final-section">
+          <p class="section-label">05 / Design explorations</p>
+          <div class="section-copy">
+            <h2>Exploring reassurance at different moments of doubt.</h2>
+            <p>The concepts strengthened the visual hierarchy around booking status, made confirmation proof portable and introduced clearer paths for contacting the property when a guest still needed reassurance.</p>
+            <p>Variants also explored different states for pay-now and buy-now-pay-later bookings, separating booking status from payment status so “confirmed” could not overpromise.</p>
+          </div>
+        </section>
+
+        <div class="exploration-story case-wrap">
+          <article class="exploration-stage reassurance-stage">
+            <header><span>01 / Reassuring status</span><h3>Lead with confidence, not system language.</h3><p>Elevate the confirmed state, explain what it means and pair it with clear payment reassurance.</p></header>
+            <div class="exploration-stage-visual"><img src="public/booking-status-hero.png" alt="Confirmed booking card with payment assurance and confirmation actions" /></div>
+            <div class="exploration-tags"><span>Status hierarchy</span><span>Human reassurance</span><span>Payment proof</span></div>
+          </article>
+          <article class="exploration-stage proof-stage">
+            <header><span>02 / Portable proof</span><h3>Let guests keep and share the evidence.</h3><p>A previewable confirmation can be downloaded or sent to email when a status label alone is not enough.</p></header>
+            <div class="exploration-stage-visual"><img src="public/booking-confirmation-sheet.png" alt="Mobile bottom sheet previewing a downloadable booking confirmation" /></div>
+            <div class="exploration-tags"><span>Preview</span><span>Download</span><span>Send to email</span></div>
+          </article>
+        </div>
+
+        <section class="results-section trust-results">
+          <div class="case-wrap">
+            <p class="section-label light">06 / Experiment results · Ongoing</p>
+            <div class="results-heading">
+              <h2>People used portable proof. Its operational impact is still being measured.</h2>
+              <p>For the first experiment, we tested only the portable-proof solution: an in-app confirmation voucher that guests could view, download or send by email. The reassuring-status concept was not included in this run.</p>
+            </div>
+            <div class="results-grid">
+              <div><strong>+1.13%</strong><span>increase in “Send voucher” clicks, statistically confirmed at p &lt; 0.001</span></div>
+              <div><strong>p = 0.39</strong><span>primary contact and handling-time metric remains statistically inconclusive</span></div>
+              <div><strong>20 days</strong><span>live at the 22 September 2026 experiment readout</span></div>
+            </div>
+            <div class="results-decision">
+              <p class="results-label">Current decision</p>
+              <p>Continue the experiment and do not take a rollout decision yet. Engagement with the voucher is proven, but there is not yet enough evidence that it reduces customer-service contact or handling time.</p>
+            </div>
+            <p class="results-note">Calculon run 1335519 · Ongoing experiment · Results last updated 22 September 2026</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="case-footer case-wrap">
+      <p>© 2026 Ethel Kwek</p>
+      <a href="index.html#work">Back to selected work ↑</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="VIVR North Star — an Agoda experience strategy and product design case study by Ethel Kwek." />
+    <title>VIVR North Star — Ethel Kwek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="case-study.css" />
+  </head>
+  <body class="vivr-case">
+    <nav class="case-nav case-wrap">
+      <a class="wordmark" href="index.html">Ethel Kwek<span>®</span></a>
+      <a class="back-link" href="index.html#work">← Selected work</a>
+    </nav>
+
+    <main>
+      <header class="case-hero case-wrap">
+        <p class="case-kicker">Agoda · Experience strategy · Customer support</p>
+        <h1>VIVR North Star <span>💬</span></h1>
+        <p class="case-lead">Reimagining Agoda’s visual self-service support as a contextual, continuous journey—before, during and after a guest asks for help.</p>
+        <dl class="case-meta">
+          <div><dt>Product</dt><dd>Visual Interactive Voice Response</dd></div>
+          <div><dt>My role</dt><dd>Product designer · North Star</dd></div>
+          <div><dt>Year</dt><dd>2026 · Vision and prototype</dd></div>
+        </dl>
+      </header>
+
+      <section class="vivr-hero" aria-label="VIVR North Star prototype screens">
+        <div class="case-wrap vivr-hero-grid">
+          <div class="vivr-hero-copy">
+            <p class="section-label">The ambition</p>
+            <h2>Support that remembers the journey—not just the latest message.</h2>
+            <p>Use booking context, visible progress and structured responses to help guests reach the right outcome with less uncertainty.</p>
+          </div>
+          <div class="vivr-device-pair">
+            <figure class="vivr-hero-screen vivr-hero-screen-status">
+              <img src="public/vivr-hero-status.png" alt="Agoda Chat showing an in-progress free cancellation request" />
+            </figure>
+            <figure class="vivr-hero-screen vivr-hero-screen-refund">
+              <img src="public/vivr-hero-refund.png" alt="Agoda Chat prompting a guest to finish receiving a refund" />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <article>
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">01 / Context</p>
+          <div class="section-copy">
+            <h2>A support channel built for self-service was creating new uncertainty.</h2>
+            <p>VIVR is Agoda’s web-based visual support experience for managing bookings without a call. But guests entered dense menus, chose the wrong route, lost context between surfaces and struggled to tell whether an action had worked.</p>
+            <p>The North Star work stepped back from individual flows to define what the entire support journey should feel like—from the first question to resolution, human handover and return visits.</p>
+          </div>
+        </section>
+
+        <section class="vivr-evidence">
+          <div class="case-wrap">
+            <p class="section-label light">The problem landscape</p>
+            <div class="vivr-evidence-heading"><h2>Guests were doing the work of the system.</h2><p>Journey analysis showed compounding friction: guests struggled to find the right path, abandoned long flows, lost visibility after submitting and repeated context during handover.</p></div>
+            <div class="vivr-stat-grid">
+              <div><em>01 / Main menu</em><b>Find the path</b><figure class="vivr-finding-shot"><img src="public/vivr-problem-main-menu.png" alt="Crowded VIVR main menu with booking details, FAQs and overlapping actions" /></figure><strong>40%</strong><span>dropped off before selecting an intent</span></div>
+              <div><em>02 / Forms</em><b>Modify a booking</b><figure class="vivr-finding-shot"><img src="public/vivr-problem-forms.png" alt="Date-change chat repeatedly rejecting and requesting a correctly formatted date" /></figure><strong>22%</strong><span>dropped off mid-flow; 10% encountered errors</span></div>
+              <div><em>03 / Text responses</em><b>Get an answer</b><figure class="vivr-finding-shot"><img src="public/vivr-problem-responses.png" alt="Long text-heavy response listing hotel amenities in Agoda Customer Service" /></figure><strong>Slow</strong><span>dense responses were difficult to scan and comprehend</span></div>
+              <div><em>04 / Handover</em><b>Reach a human</b><figure class="vivr-finding-shot"><img src="public/vivr-problem-handover.png" alt="VIVR handover showing a queue, agent connection and repeated booking context" /></figure><strong>3×</strong><span>users repeated information when moving to an agent</span></div>
+            </div>
+            <p class="vivr-evidence-note">Supporting signals: 51% selected the wrong intent; abandonment reached 65% in the free-cancellation request proxy; and 20% contacted support while a request was pending—48% within two hours.</p>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">02 / North Star</p>
+          <div class="section-copy">
+            <h2>One request journey, even when the channel changes.</h2>
+            <p>A guest may check policy in booking management, start a request in VIVR, continue with a human agent and return later for the outcome. Internally these are different systems; to the guest, they are one continuous task.</p>
+            <div class="callout"><span>Experience goal</span><p>At any point, guests should know what will happen, what is happening, what happened and what to do next.</p></div>
+          </div>
+        </section>
+
+        <section class="vivr-principles">
+          <div class="case-wrap">
+            <p class="section-label">03 / Design framework</p>
+            <div class="vivr-principles-heading"><h2>GUIDE turned research into five experience rules.</h2><p>The framework connected recurring journey failures to practical design decisions.</p></div>
+            <ol class="vivr-guide">
+              <li><strong>G</strong><div><h3>Guidance</h3><p>Make the best next step obvious.</p></div></li>
+              <li><strong>U</strong><div><h3>User context</h3><p>Use booking information already known.</p></div></li>
+              <li><strong>I</strong><div><h3>Input efficiency</h3><p>Reduce repeated questions and effort.</p></div></li>
+              <li><strong>D</strong><div><h3>Dead-end recovery</h3><p>Explain failure and offer a way forward.</p></div></li>
+              <li><strong>E</strong><div><h3>Empathetic design</h3><p>Communicate clearly when stakes feel high.</p></div></li>
+            </ol>
+          </div>
+        </section>
+
+        <div class="vivr-prototype-block">
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">04 / Design solutions</p>
+          <div class="section-copy">
+            <h2>Solve the moments where confidence breaks.</h2>
+            <p>The design addresses the journey’s biggest breakdowns directly: contextual entry helps guests find the right path, clearer responses reduce errors, visible request status removes uncertainty after submission, and informed handover carries context to an agent without forcing guests to repeat themselves.</p>
+          </div>
+        </section>
+
+        <div class="vivr-prototype-grid case-wrap">
+          <figure>
+            <div class="vivr-prototype-stage">
+              <img class="vivr-prototype-image" src="public/vivr-contextual-entry.png" alt="Personalized Agoda Chat entry showing booking context and suggested support intents" />
+            </div>
+            <figcaption><span>01 / Contextual entry</span><h3>Start from the booking, not a generic menu</h3><p>Instead of forcing guests through intent buttons, the design puts free-text conversation first. Booking context and suggested prompts provide lightweight guidance, helping guests ask naturally while still finding the right path.</p></figcaption>
+          </figure>
+          <figure>
+            <div class="vivr-prototype-stage">
+              <img class="vivr-prototype-image" src="public/vivr-booking-modification-form-v2.png" alt="Agoda Chat form for reviewing and modifying guest names on a booking" />
+            </div>
+            <figcaption><span>02 / Guided forms</span><h3>Make booking changes easier to complete</h3><p>A structured form makes every required field visible upfront, allows details to be reviewed in one place and reduces repetitive chat turns—directly addressing the 22% mid-flow drop-off seen in booking modification flows.</p></figcaption>
+          </figure>
+          <figure class="vivr-rich-media-card">
+            <div class="vivr-prototype-stage vivr-rich-media-stage">
+              <img class="vivr-rich-media-image" src="public/vivr-rich-media-map.png" alt="Agoda Chat response using a map card to show a hotel’s location" />
+              <img class="vivr-rich-media-image" src="public/vivr-rich-media-gallery.png" alt="Agoda Chat response using a photo gallery to show hotel amenities" />
+            </div>
+            <figcaption><span>03 / Rich media</span><h3>Turn dense answers into something scannable</h3><p>Maps, images and visual cards replace long text responses with information guests can understand at a glance—reducing the time and effort needed to scan and comprehend an answer.</p></figcaption>
+          </figure>
+          <figure>
+            <div class="vivr-prototype-stage">
+              <img class="vivr-prototype-image" src="public/vivr-explicit-handover.png" alt="Agoda Chat handover summary showing the guest’s refund details before connecting to an agent" />
+            </div>
+            <figcaption><span>04 / Explicit handover</span><h3>Make the human transition unmistakable</h3><p>Clear agent identity and a visible context package remove repetition and ambiguity.</p></figcaption>
+          </figure>
+        </div>
+
+        </div>
+
+        <section class="case-section case-wrap case-grid final-section">
+          <p class="section-label">05 / Post-booking continuity</p>
+          <div class="section-copy">
+            <h2>VIVR is one part of a connected post-booking journey.</h2>
+            <p>A guest may begin in Booking Details, continue in VIVR, wait for a property decision and escalate to an agent. The North Star only works when that feels like one request—not four disconnected interactions.</p>
+            <p>Booking context, request status, previous actions and the next step should move across EBP, VIVR and customer service. This lets guests resume where they left off, see the same status everywhere and reach an informed agent without starting again.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="case-footer case-wrap">
+      <p>© 2026 Ethel Kwek</p>
+      <a href="index.html#work">Back to selected work ↑</a>
+    </footer>
+  </body>
+</html>

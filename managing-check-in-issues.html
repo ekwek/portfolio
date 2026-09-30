@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Managing check-in issues — an Agoda product design case study by Ethel Kwek." />
+    <title>Managing check-in issues — Ethel Kwek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="case-study.css" />
+  </head>
+  <body>
+    <nav class="case-nav case-wrap">
+      <a class="wordmark" href="index.html">Ethel Kwek<span>®</span></a>
+      <a class="back-link" href="index.html#work">← Selected work</a>
+    </nav>
+
+    <main>
+      <header class="case-hero case-wrap">
+        <p class="case-kicker">Agoda · Product design · End-to-end service</p>
+        <h1>Managing check-in issues <span>😠</span></h1>
+        <p class="case-lead">A self-service experience that helps guests report and resolve a confirmed booking that a property cannot honor—without immediately relying on customer support.</p>
+        <dl class="case-meta">
+          <div><dt>Product</dt><dd>Agoda</dd></div>
+          <div><dt>My role</dt><dd>End-to-end product design</dd></div>
+          <div><dt>Focus</dt><dd>Service design, UX, validation</dd></div>
+        </dl>
+      </header>
+
+      <section class="case-visual case-visual-purple">
+        <img src="public/agoda-check-in-case-study.png" alt="Three Agoda mobile screens showing the check-in issue reporting and resolution experience" />
+      </section>
+
+      <article>
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">01 / Overview</p>
+          <div class="section-copy">
+            <h2>A confirmed booking doesn’t always guarantee a room.</h2>
+            <p>At Agoda, a growing number of guests arrived at their property only to find that it could not honor a paid and confirmed reservation. Internally, these cases are known as Allotment Rejects.</p>
+            <p>The goal was to build a self-service flow from scratch—helping guests manage the issue independently, reducing frustration and lowering reliance on customer service.</p>
+          </div>
+        </section>
+
+        <figure class="wide-media case-wrap">
+          <img src="public/checkin-01.png" alt="Data showing when check-in issues occur" />
+        </figure>
+
+        <section class="case-section impact-section">
+          <div class="case-wrap">
+            <p class="section-label light">02 / Why it matters</p>
+            <h2 class="impact-title">A high-stress moment for guests—and the second-highest contact cost for the business.</h2>
+            <div class="stat-grid">
+              <div><strong>&gt;1,000</strong><span>cases every day, with almost half happening during check-in</span></div>
+              <div><strong>35,000</strong><span>cases recorded in December 2025 alone</span></div>
+              <div><strong>10%</strong><span>of customer-service handling time spent on these cases</span></div>
+            </div>
+            <p class="data-note">For context, every 1% of customer-service handling time represents approximately US$800,000 in monetary value.</p>
+            <blockquote>“I asked questions because I was concerned about Agoda reservation issues reported in the news.”<cite>— Japan booker</cite></blockquote>
+          </div>
+        </section>
+
+        <figure class="wide-media case-wrap compact-media">
+          <img src="public/checkin-02.png" alt="Customer trust and check-in issue context" />
+        </figure>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">03 / Building the solution</p>
+          <div class="section-copy">
+            <h2>Proving demand before investing in the full flow.</h2>
+            <p>We first placed an entry point on the Manage Booking page to see whether affected guests would use it. Around <strong>50% of guests with an active case clicked the button</strong>, validating clear demand for self-service.</p>
+            <p>I mapped complex operational procedures into one streamlined journey spanning issue reporting, status updates, relocation, and cancellation. The work required alignment on eligibility, urgency and routing logic, plus clear intervention points for handing a case to an agent.</p>
+            <div class="callout"><span>Key shift</span><p>Move the experience from waiting for agent updates to receiving clear, automated system-status updates.</p></div>
+          </div>
+        </section>
+
+        <figure class="wide-media case-wrap flow-media">
+          <img src="public/checkin-04.png" alt="Mapped self-service flow for resolving check-in issues" />
+        </figure>
+
+        <section class="case-section case-wrap case-grid">
+          <p class="section-label">04 / Validating the designs</p>
+          <div class="section-copy">
+            <h2>Testing the complexity with eight Agoda bookers.</h2>
+            <p>All participants completed the flows with confidence and little difficulty. Most were receptive to both the self-service response and the stated resolution time—although family travelers, especially those with young children, needed additional reassurance.</p>
+            <div class="insight-grid">
+              <div><strong>What worked</strong><p>High task completion, confident navigation, and acceptance of the self-service model.</p></div>
+              <div><strong>What changed</strong><p>Clearer messaging, more scenario-specific information, stronger information hierarchy, and less ambiguous UI.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <figure class="wide-media case-wrap"><img src="public/checkin-05.png" alt="User-testing findings for the check-in issue flow" /></figure>
+        <section class="iteration-comparison case-wrap" aria-labelledby="iteration-title">
+          <div class="iteration-intro">
+            <p class="section-label">Design iteration</p>
+            <h3 id="iteration-title">From a dense reporting form to a clearer, more reassuring experience.</h3>
+          </div>
+          <div class="iteration-grid">
+            <figure class="iteration-card iteration-before">
+              <figcaption>
+                <span class="iteration-tag">A · Initial concept</span>
+                <p>Repeated booking information and a dense form made the most important guidance harder to scan.</p>
+              </figcaption>
+              <div class="iteration-image" role="img" aria-label="Initial check-in issue reporting design before user testing"></div>
+            </figure>
+            <div class="iteration-arrow" aria-hidden="true">→</div>
+            <figure class="iteration-card iteration-after">
+              <figcaption>
+                <span class="iteration-tag">B · After user testing</span>
+                <p>Clearer hierarchy, an explicit response time, autofilled contact details, and a simple explanation of what happens next.</p>
+              </figcaption>
+              <div class="iteration-image" role="img" aria-label="Improved check-in issue reporting design after user testing"></div>
+            </figure>
+          </div>
+        </section>
+
+        <section class="case-section case-wrap case-grid final-section">
+          <p class="section-label">05 / Final MVP</p>
+          <div class="section-copy">
+            <h2>Aligning the ambition with operational reality.</h2>
+            <p>I presented the end-to-end flow to horizontal teams and senior leadership. Because of the operational risks and process changes required, we aligned on a stripped-down MVP that retained the most valuable parts of the experience while creating a practical path to launch.</p>
+          </div>
+        </section>
+
+        <figure class="wide-media case-wrap last-media"><img src="public/checkin-07.png" alt="Final MVP flow for managing check-in issues" /></figure>
+
+        <section class="results-section">
+          <div class="case-wrap">
+            <p class="section-label light">06 / Results · Early readout</p>
+            <div class="results-heading">
+              <h2>The experience launched safely. The business impact is still being measured.</h2>
+              <p>At the latest readout on 20 September 2026, the experiment had been live for 21 days. Exposure was balanced, but the primary metric remained statistically flat and the hypothesis metrics were not yet conclusive.</p>
+            </div>
+            <div class="results-grid">
+              <div><strong>21 days</strong><span>live at the latest experiment readout</span></div>
+              <div><strong>Flat</strong><span>primary evaluation metric, both overall and within the impacted segment</span></div>
+              <div><strong>0 of 6</strong><span>hypothesis metrics confirmed so far; none disproven</span></div>
+            </div>
+            <div class="results-decision">
+              <p class="results-label">Decision</p>
+              <p>Continue the experiment and collect more evidence before taking a rollout decision. The current data supports neither a confirmed uplift nor a negative impact.</p>
+            </div>
+            <p class="results-note">Results reflect an ongoing A/B experiment and may change as more data is collected.</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="case-footer case-wrap">
+      <p>© 2026 Ethel Kwek</p>
+      <a href="index.html#work">Back to selected work ↑</a>
+    </footer>
+  </body>
+</html>
